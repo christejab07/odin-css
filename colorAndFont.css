@@ -1,0 +1,52 @@
+.container{
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+.container>h1{
+    color: #3882f6;
+    width: 100%;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 15px;
+}
+.body{
+    padding: 10px;
+}
+.hero{
+    background-color: #1f2937;
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+.div2>h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.footer{
+    background-color: #e5e7eb;
+    width: 100%;
+    padding: 10px;
+}
+.div3>h3{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.div4>h3{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.div5>h3{
+    color: #3882f6;
+}
+.div6>h1{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.div8>h2{
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1f2937;
+}
