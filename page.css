@@ -1,0 +1,45 @@
+body{
+    font-family: sans-serif;
+}
+.header{
+    background-color: #1f2937;
+    width: 80%;
+    color: white;
+    padding: 0 10%;
+}
+.head{
+    display: flex;
+    background-color: blue;
+    justify-content: space-between;
+}
+.header>h2{
+    display: flex;
+}
+.logo{
+    color: white;
+    font-weight: bold;
+}
+.links>a{
+    flex: 1;
+    text-decoration: none;
+    color: gainsboro;
+    margin: 10px;
+}
+.web{
+    display: flex;
+}
+.text, .image {
+    height: 250px;
+    background-color: red;
+    margin: 20px;
+    flex: 1 1 auto;
+}
+.text{
+    width: 400px;
+    padding: 10px;
+}
+.text>button{
+    background-color: #3882f6;
+    border: none;
+    padding: 8px 20px;
+}
