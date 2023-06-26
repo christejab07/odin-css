@@ -11,7 +11,7 @@
     padding: 0 10%;
 }
 .links>a{
-    margin: 0 20px 0 0;
+    margin: 0 15px 0 0;
 }
 .head{
     display: flex;
@@ -73,14 +73,15 @@
 .box{
     flex: 1;
     align-self: center;
-    width: 100px;
+    width: 150px;
     margin: 10px;
     font-size: 10px;
     color: #606060;
+    text-align: center;
 }
 .box>div{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border: 2px solid #3882f6;
     border-radius: 10px;
 }
@@ -90,4 +91,44 @@
 .body>h2{
     text-align: center;
     margin: 0.5em;
+}
+.quote{
+    background-color: #ccc;
+    padding: 5% 30%;
+}
+.quote>p{
+    font-style: italic;
+    font-size: larger;
+    font-weight: lighter;
+    text-align: left;
+}
+.quote{
+    text-align: right;
+}
+.footer{
+    background-color: #3882f6;
+    border-radius: 5px;
+    margin: 5% 10%;
+    padding: 20px 10%;
+    display: flex;
+    color: white;
+}
+.footer>button{
+    margin-left: 20%;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+}
+.footer>p{
+    font-weight: lighter;
+}
+.foot{
+    background-color: #1f2937;
+    text-align: center;
+    padding: 1em 0;
+    color: #ccc;
 }
