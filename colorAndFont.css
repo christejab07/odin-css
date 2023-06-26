@@ -1,6 +1,11 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 .container{
-    overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 .container>h1{
     color: #3882f6;
